@@ -1,0 +1,100 @@
+/* 우리팀 카페 공통 디자인 — 모든 페이지가 이 파일을 연결해서 씁니다. (수정 금지) */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 40px 16px;
+  font-family: "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+  background: #f7f1e8;
+  color: #4a3728;
+  text-align: center;
+}
+
+h1 {
+  margin: 0 0 12px;
+  font-size: 2.4rem;
+  color: #6b4226;
+}
+
+h2 {
+  margin: 0 0 24px;
+  font-size: 1.8rem;
+  color: #6b4226;
+}
+
+.welcome {
+  margin: 0 0 32px;
+  font-size: 1.1rem;
+}
+
+/* 버튼 */
+.menu-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 14px 28px;
+  border-radius: 999px;
+  background: #6b4226;
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #8b5a3c;
+}
+
+/* 메뉴 카드 목록 */
+.menu-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* 메뉴 카드 하나 */
+.menu-card {
+  width: 240px;
+  padding: 20px;
+  border-radius: 16px;
+  background: #fff;
+  box-shadow: 0 4px 12px rgba(74, 55, 40, 0.12);
+  text-align: left;
+}
+
+.menu-card h3 {
+  margin: 0 0 8px;
+  font-size: 1.2rem;
+  color: #6b4226;
+}
+
+.menu-card p {
+  margin: 0 0 12px;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.menu-card .price {
+  margin: 0;
+  font-weight: bold;
+  color: #b5651d;
+}
+
+/* "처음으로" 링크 */
+.home-link {
+  display: inline-block;
+  margin-top: 40px;
+  color: #6b4226;
+  font-weight: bold;
+}
